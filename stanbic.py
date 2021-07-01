@@ -14,9 +14,8 @@ phoneNumber = "0506691160"
 comments = "I'm very excited to participate in this!"
 
 #Website to fill forms
-driver.get(
-    'https://docs.google.com/forms/d/1_XyTRmCotkVFmU_V83Mma9uGUMY460CDFEe64-QgYM0/edit'
-)
+url = 'https://docs.google.com/forms/d/1_XyTRmCotkVFmU_V83Mma9uGUMY460CDFEe64-QgYM0/edit'
+driver.get(url)
 
 #Set timer to 1 second so we can see the changes
 time.sleep(1)
@@ -30,6 +29,7 @@ sign_in_xpath.click()
 email_id = driver.find_element_by_id('identifierId').send_keys(gmail)
 nextbutton_id = driver.find_element_by_id('identifierNext').click()
 
+driver.implicitly_wait(60) # depending on internet speed, we wait for 60 seconds for selenium to find these elements
 password = driver.find_element_by_name('password').send_keys(gmail_password)
 passwordNextId = driver.find_element_by_id('passwordNext').click()
 
@@ -43,14 +43,14 @@ name_xpath.send_keys(name)
 
 radio_gender_id = driver.find_element_by_id('i9').click()
 
-email_id = driver.find_element_by_xpath(
+email_xpath = driver.find_element_by_xpath(
     '//*[@id="mG61Hd"]/div[2]/div/div[2]/div[3]/div/div/div[2]/div/div[1]/div/div[1]/input'
 )
-email_id.send_keys(gmail)
+email_xpath.send_keys(gmail)
 
-submitButtonXpath = driver.find_element_by_xpath(
+nextButtonXpath = driver.find_element_by_xpath(
     '//*[@id="mG61Hd"]/div[2]/div/div[3]/div[1]/div/div/span')
-submitButtonXpath.click()
+nextButtonXpath.click()
 
 #Contact Information
 school_xpath = driver.find_element_by_xpath(
