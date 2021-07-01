@@ -30,7 +30,6 @@ sign_in_xpath.click()
 email_id = driver.find_element_by_id('identifierId').send_keys(gmail)
 nextbutton_id = driver.find_element_by_id('identifierNext').click()
 
-driver.implicitly_wait(60)
 password = driver.find_element_by_name('password').send_keys(gmail_password)
 passwordNextId = driver.find_element_by_id('passwordNext').click()
 
