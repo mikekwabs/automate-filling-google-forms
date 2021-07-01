@@ -43,7 +43,7 @@ time.sleep(1)
 name_xpath.send_keys(name)
 
 driver.implicitly_wait(60)
-radio_gender_xpath = driver.find_element_by_id('i9').click()
+radio_gender_id = driver.find_element_by_id('i9').click()
 
 driver.implicitly_wait(60)
 email_id = driver.find_element_by_xpath(
