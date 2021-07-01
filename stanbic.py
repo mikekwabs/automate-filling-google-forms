@@ -21,9 +21,10 @@ driver.get(
 #Set timer to 1 second so we can see the changes
 time.sleep(1)
 
-radio_sign_in_xpath = driver.find_element_by_xpath(
+#Access the sign in prompt
+sign_in_xpath = driver.find_element_by_xpath(
     '/html/body/div[2]/div/div[2]/div[3]/div[2]/span/span')
-radio_sign_in_xpath.click()
+sign_in_xpath.click()
 
 #Gmail Login
 email_id = driver.find_element_by_id('identifierId').send_keys(gmail)
@@ -51,9 +52,9 @@ email_id = driver.find_element_by_xpath(
 email_id.send_keys(gmail)
 
 driver.implicitly_wait(60)
-submitButtonClass = driver.find_element_by_xpath(
+submitButtonXpath = driver.find_element_by_xpath(
     '//*[@id="mG61Hd"]/div[2]/div/div[3]/div[1]/div/div/span')
-submitButtonClass.click()
+submitButtonXpath.click()
 
 #Contact Information
 school_xpath = driver.find_element_by_xpath(
