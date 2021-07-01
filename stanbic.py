@@ -42,16 +42,16 @@ name_xpath = driver.find_element_by_xpath(
 time.sleep(1)
 name_xpath.send_keys(name)
 
-driver.implicitly_wait(60)
+
 radio_gender_id = driver.find_element_by_id('i9').click()
 
-driver.implicitly_wait(60)
+
 email_id = driver.find_element_by_xpath(
     '//*[@id="mG61Hd"]/div[2]/div/div[2]/div[3]/div/div/div[2]/div/div[1]/div/div[1]/input'
 )
 email_id.send_keys(gmail)
 
-driver.implicitly_wait(60)
+
 submitButtonXpath = driver.find_element_by_xpath(
     '//*[@id="mG61Hd"]/div[2]/div/div[3]/div[1]/div/div/span')
 submitButtonXpath.click()
