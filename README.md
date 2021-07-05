@@ -4,13 +4,20 @@ I wrote this script to automate filling a google form. The script was purposely 
 on the webpage or form you working on.
 
 <<<<<<< HEAD
-# Demo video
-https://github.com/mikekwabs/stanbic/blob/625a143ed0c4ed0ec9bfe2b9bebe4230914d1409/demo-video/stanbic-demo.mp4
-=======
-## Link to video demo
-https://github.com/mikekwabs/stanbic/blob/master/demo-video.mp4
->>>>>>> 5121f83601cfd2f6387ee508e6d933cb7cb80803
 
+# Demo video
+
+# https://github.com/mikekwabs/stanbic/blob/625a143ed0c4ed0ec9bfe2b9bebe4230914d1409/demo-video/stanbic-demo.mp4
+
+## Link to video demo
+
+https://github.com/mikekwabs/stanbic/blob/master/demo-video.mp4
+
+> > > > > > > 5121f83601cfd2f6387ee508e6d933cb7cb80803
+
+Package to install
+
+- Selenium
 
 #Command line argument
 
