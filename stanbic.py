@@ -6,7 +6,7 @@ driver = webdriver.Chrome('chromedriver.exe')
 
 #Information about me
 gmail = "mkoranteng007@st.ug.edu.gh"
-gmail_password = 'abigispyworld5'
+gmail_password = '******'
 name = "Michael Koranteng"
 schoolOfCompletion = "Presbyterian Senior High School, Osu"
 address = 'Sowutuom,Accra'
