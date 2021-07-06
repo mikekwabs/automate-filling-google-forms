@@ -8,7 +8,7 @@ on the webpage or form you working on.
 
 https://github.com/mikekwabs/stanbic/blob/master/demo-video.mp4
 
-> > > > > > > 5121f83601cfd2f6387ee508e6d933cb7cb80803
+
 
 Package to install
 
