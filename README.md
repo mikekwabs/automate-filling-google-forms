@@ -6,7 +6,7 @@ on the webpage or form you working on.
 
 ## Link to video demo
 
-https://github.com/mikekwabs/stanbic/blob/master/demo-video.mp4
+https://github.com/mikekwabs/stanbic/blob/a12e4bbb6eb217318dd95c1dac1d5fa553832dea/demo-video.mp4
 
 
 
