@@ -11,7 +11,7 @@ Package to install
 
 - Selenium
 
-# Command line argument
+### Command line argument
 
 ```bash
 python stanbic.py
